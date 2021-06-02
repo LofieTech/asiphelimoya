@@ -1,432 +1,358 @@
 <!DOCTYPE html>
-<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
-<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <title>burger html5 landing page</title>
-        <!-- Mobile Specific Meta -->
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-        <!-- Stylesheets -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
-        <link rel="stylesheet" href="css/flaticon.css" />
-
-        <!-- Animate -->
-        <link rel="stylesheet" href="css/animate.css">
-        <!-- Bootsnav -->
-        <link rel="stylesheet" href="css/bootsnav.css">
-        <!-- Color style -->
-        <link rel="stylesheet" href="css/color.css">
-
-        <!-- Custom stylesheet -->
-        <link rel="stylesheet" href="css/custom.css" />
-        <!--[if lt IE 9]>
-                <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
-        <style>
-            h3 {
-               text-shadow: 2px 2px #FF0000;
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>GYM CLUB</title>
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/fontawesome.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+      <style>
+         h2 {
+            text-shadow: 2px 2px #FF0000;
             }
-            h2 {
-                text-shadow: 2px 2px pink;
+         h3 {
+            text-shadow: 2px 2px #FF0000;
             }
-            h4 {
-                text-shadow: 2px 2px #blue;
+         h4 {
+            text-shadow: 2px 2px #FF0000;
+            }
+         h5 {
+            text-shadow: 1px 2px blue; 
+         }
+         
+         
+         }
+
+         p.thinker {
+            font-weight: 900;
+         } 
+
+         p.think {
+            font-weight: bold;
+         }
+
+         .hero-image {
+            background-image: url("imgs/Main.jpg");
+            background-color: #cccccc;
+            height: 500px;
+            width: 100%
+            background-position: cover;
+            background-repeat: no-repeat;
+            background-size: contain;
+
             }
 
-        </style>
-    </head>
-    <body data-spy="scroll" data-target="#navbar-menu" data-offset="100">
+         .hero-text {
+            text-align: center;
+            position: absolute;
+            top: 65%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #81002E;
+            }
 
-        <!-- Preloader --> 
-        <!-- <div id="loading">
-            <div id="loading-center">
-                <div id="loading-center-absolute">
-                    <div class="object" id="object_one"></div>
-                    <div class="object" id="object_two"></div>
-                    <div class="object" id="object_three"></div>
-                    <div class="object" id="object_four"></div>
-                    <div class="object" id="object_five"></div>
-                    <div class="object" id="object_six"></div>
-                    <div class="object" id="object_seven"></div>
-                    <div class="object" id="object_eight"></div>
-                    <div class="object" id="object_big"></div>
-                </div>
-            </div>
-        </div> -->
-        <!--End Preloader -->
-        <!-- Navbar -->
-        <nav class="navbar navbar-default bootsnav no-background ">
-            <div class="container">  
-
-                <!-- Start Atribute Navigation -->
-                <div class="attr-nav">
-                    <ul>
-                        <li class="side-menu"><a href="#"><i class="fa fa-bars"></i></a></li>
-                    </ul>
-                </div>        
-                <!-- End Atribute Navigation -->
-
-                <!-- Start Header Navigation -->
-                <div class="navbar-header">
-                    <a class="navbar-brand" href="#"><!-- <img src="images/logo.png" class="logo" alt=""> --></a>
-                </div>
-                <h3>NOLU & MFERA's Burger Delight</h2>
-                <!-- End Header Navigation -->
-            </div>   
-
-            <!-- Start Side Menu -->
-            <div class="side">
-                <a href="#" class="close-side"><i class="fa fa-times"></i></a>
-                <div class="widget">
-                    <h6 class="title">Menu</h6>
-                    <ul class="link">
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">PriceList</a></li>
-                        <!-- <li><a href="#">Portfolio</a></li> -->
-                        <!-- <li><a href="#">Contact</a></li> -->
-                    </ul>
-                </div>
-            </div>
-            <!-- End Side Menu -->
-        </nav>
-
-        <!-- Header -->
-        <header id="hello">
-            <!-- Container -->
+      </style>
+      <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      />
+   </head>
+         <link rel="stylesheet" type="text/css" href=""> 
+   <body>
+      <div class="top_section">
+         <div class="top_inner">
+            <div id="header" class="header">
+         <nav class="navbar navbar-expand-lg navbar-light text-capitalize">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <div class="banner">
-                            <h3></h3>
-                            <h1>-</h1>
-
-                            <div class="inner_banner">
-                                <div class="banner_content">
-                                    <!-- <p>A double layer of sear-sizzled 100% pure beef mingled with special sauce on a sesame seed bun and topped with melty American cheese, crisp lettuce, minced onions and tangy pickles.</p>
-                                    <p>*Based on pre-cooked patty weight.</p> -->							
-                                </div>
-                                <div class="stamp">
-                                    <!-- <img src="images/stamp.png" alt="" /> -->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div><!-- Container end -->
-            <!-- <p class="caption">*Limited Time Only</p> -->
-        </header><!-- Header end -->
-
-        <!-- Block Content -->
-        <section id="block">
-            <div class="container">
-
-                <!-- First section -->
-                <div class="row">
-                    <div class="col-sm-8">
-                        <div class="feature">
-                            <div class="shack_burger">
-                                <div class="chicken">
-                                    <img src="images/chicken.png" alt="Chicken" />
-                                </div>
-
-                                <h2>Greek Salad </h2>
-                                <p>Baby tomato, lettuce, and “Drilled chicken,” bacon, cucumber, sweet-corn and dash of red onion</p>
-                            </div>
-                            <p class="caption">*Limited Time Only</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                       <!--  <div class="signature">
-                            <div class="shape">
-                                <span class="flaticon flaticon-burger"></span>
-                                <p>signature</p>
-                            </div>
-                            <div class="signature_content">
-                                <p>It used to be a Secret but not any more! Our tribute to the King is a Cheddar Beef Patty,</p>
-                            </div>
-                        </div> -->
-                    </div>
-                </div><!-- first section end -->
-
-                <!-- Second section -->
-                <div class="row">
-                    <div class="col-md-6">
-                        <!-- <div class="classic">
-                            <a href="" class="classic_btn">classic</a>
-
-                            <div class="overlay">
-                                <h3>House-ground hamburger</h3>
-                                <p>(served in a grilled rosemary focaccia).</p>
-
-                                <p class="overlay_content">Instead of traditional cucumber pickles, legendary chef-owner Judy Rodgers accents her burgers with thin-cut zucchini strips pickled in apple cider vinegar, mustard seeds and turmeric.</p>
-                            </div>
-                        </div> -->
-                    </div>
-
-                    <div class="col-md-6">
-                        <!-- Carousel -->
-                        <div id="small_carousel" class="carousel slide" data-ride="carousel">
-                            <!-- Indicators -->
-                            <ol class="carousel-indicators">
-                                <li data-target="#small_carousel" data-slide-to="0" class="active"></li>
-                                <li data-target="#small_carousel" data-slide-to="1"></li>
-                                <li data-target="#small_carousel" data-slide-to="2"></li>
-                            </ol>
-
-                            <div class="carousel-caption">
-                                <h3>The Original Burger</h3>
-                                <hr />
-
-                                <ul class="list-unstyled nutrition">
-                                    <li><a href=""><span class="flaticon flaticon-protein"></span><p>Protein - 33g</p></a></li>
-                                    <li><a href=""><span class="flaticon flaticon-carbohydrate"></span><p>Carbohydrates - 46gm</p></a></li>
-                                    <li><a href=""><span class="flaticon flaticon-calories"></span><p>Calories - 750 kcal</p></a></li>
-                                </ul>
-                                <div class="info_btn_shadow">
-                                    <a href="" class="info_btn">info & nutrition</a>
-                                </div>
-                            </div>
-
-                            <!-- carousel inner -->
-                            <div class="carousel-inner" role="listbox">
-                                <div class="item active">
-                                    <img src="images/Buger.jpeg" alt="" />
-                                </div>
-                                <div class="item">
-                                    <img src="images/small_slider_bg.jpg" alt="" />
-                                </div>
-                                <div class="item">
-                                    <img src="images/combo.jpeg" alt="" />
-                                </div>
-                            </div><!-- carousel inner end -->
-                        </div><!-- Carousel end-->
-                    </div>
-                </div><!-- second section end -->
-
-                <!-- Third section -->
-                <!-- Carousel -->
-                <!-- <div id="carousel" class="carousel slide" data-ride="carousel"> -->
-                    <!-- Indicators -->
-                    <!-- <ol class="carousel-indicators">
-                        <li data-target="#carousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#carousel" data-slide-to="1"></li>
-                        <li data-target="#carousel" data-slide-to="2"></li>
-                    </ol> -->
-
-                    <!-- carousel inner -->
-                    <!-- <div class="carousel-inner" role="listbox">
-                        <div class="item active">
-                            <img src="images/large_slider_img.jpg" alt="Burger">
-
-                            <div class="carousel-caption">
-                                <h2>Cheddar JUnky</h2>
-                                <h3>Stuffed Burgers</h3>
-
-                                <p>Chef Wesley Genovart makes this over-the-top, Shake Shack–inspired burger with two thin stacked patties, thick-cut bacon, kimchi and a spicy homemade sauce.</p>
-
-                                <div class="info_btn_shadow">
-                                    <a href="" class="info_btn">info & nutrition</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <img src="images/large_slider_img.jpg" alt="Burger">
-
-                            <div class="carousel-caption">
-                                <h2>Cheddar JUnky</h2>
-                                <h3>Stuffed Burgers</h3>
-
-                                <p>Chef Wesley Genovart makes this over-the-top, Shake Shack–inspired burger with two thin stacked patties, thick-cut bacon, kimchi and a spicy homemade sauce.</p>
-
-                                <div class="info_btn_shadow">
-                                    <a href="" class="info_btn">info & nutrition</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <img src="images/large_slider_img.jpg" alt="Burger">
-
-                            <div class="carousel-caption">
-                                <h2>Cheddar JUnky</h2>
-                                <h3>Stuffed Burgers</h3>
-
-                                <p>Chef Wesley Genovart makes this over-the-top, Shake Shack–inspired burger with two thin stacked patties, thick-cut bacon, kimchi and a spicy homemade sauce.</p>
-
-                                <div class="info_btn_shadow">
-                                    <a href="" class="info_btn">info & nutrition</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div> --><!-- carousel inner end -->
-                <!-- </div> --><!-- Carousel end-->
-
-                <!-- Forth section -->
-                <div class="row forth_sec">
-                    <div class="col-sm-4">
-                        <div class="menu">
-                            <div class="inner_content">
-                                <span class="flaticon flaticon-burger"></span>
-                                <h2>menu</h2>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="drinks">
-                            <div class="inner_content">
-                                <span class="flaticon flaticon-drink"></span>
-                                <h2>drinks</h2>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="sides">
-                            <div class="inner_content">
-                                <span class="flaticon flaticon-food"></span>
-                                <h2>sides</h2>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="sides">
-                            <div class="inner_content">
-                                <span class="flaticon flaticon-food"></span>
-                                <h2>salad</h2>
-                            </div>
-                        </div>
-                    </div>
-                </div><!-- forth section end -->
+               <h3 class="animate__animated animate__wobble">ASIPHELIMOYA GYM CLUB</h3>
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#show-menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="show-menu">
+                  <ul class="navbar-nav ml-auto">
+                     
+                        <a class="nav-link" href="#main_slider"><b>HOME</b></a>
+                     
+                     
+                        <a class="nav-link" href="#workouts"><b>WORKOUTS</b></a>
+                     
+                     
+                        <a class="nav-link" href="#classes"><b>PERSONAL CLASSES</b></a>
+                     
+                     
+                        <a class="nav-link" href="GymRegistrationForm.doc"download>REGISTRATION FORM</a>
+                     
+                        <a class="nav-link" href="https://web.facebook.com/groups/1058998851273120" target="_blank">FACEBOOK PAGE</a>
+                  </ul>
+               </div>
             </div>
-        </section><!-- Block Content end-->
+         </nav>
+      </div>
+            <div id="main_slider" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+               <li data-target="#main_slider" data-slide-to="0" class="active"></li>
+               <li data-target="#main_slider" data-slide-to="1"></li>
+               <li data-target="#main_slider" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+               <div class="carousel-item active">
+                  <img class="d-block w-100" src="imgs/Main1.jpg" alt="slider_img">
+                  <div class="ovarlay_slide_cont">
+                     <h2>Gym<br>to<br>the<br>beat</h2>
+                     <a class="blue_bt" href="#">Our Service</a>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <img class="d-block w-100" src="imgs/Main2.jpg" alt="slider_img">
+                  <div class="ovarlay_slide_cont">
+                     <h2>Dance<br>to<br>the<br>beat</h2>
+                     <a class="blue_bt" href="#">Our Service</a>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <img class="d-block w-100" src="imgs/Staff.jpg" alt="slider_img">
+                  <div class="ovarlay_slide_cont">
+                     <h2>Dance<br>to<br>the<br>beat</h2>
+                     <a class="blue_bt" href="#">Our Service</a>
+                  </div>
+               </div>
+            </div>
+            <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev">
+            <img src="imgs/arrow_1.png" alt="#" />
+            </a>
+            <a class="carousel-control-next" href="#main_slider" role="button" data-slide="next">
+            <img src="imgs/arrow_1.png" alt="#" />
+            </a>
+            </div> 
+         </div>
+      </div>
 
-        <!-- Lock -->
-        <section id="lock">
-            <h2>SERVING MORE THAN JUST BURGERS SINCE 1998</h2>
-            <p>Check out our opening hours and location address below.</p>
-        </section>
+      <div id="trainings" class="layout_padding">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12 text_align_center">
+                  <h2 class="heading_section ; animate__animated animate__rubberBand">WORKOUTS</h3>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="trainings_blog" class="layout_padding" style="background: #876EAF;">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-4">
+                  <p>
+                     <h5>TYPE OF WORKOUTS</h5>
+                     <ul>
+                        <li>Aerobics</li>
+                        <li>Cardio</li>
+                        <li>Zumba</li>
+                        <li>Mixed Martial Arts</li>
+                        <li>Running</li>
+                        <li>Hiking</li>
+                        <li>Surf Walk</li>
+                     </ul>
+                  </p>
+               </div>
+               <div class="col-sm-4 video_img">
+                  <img class="img-responsive" src="imgs/Trainings4.jpg" alt="#" />
+               </div>
+               <div class="col-sm-3 video_img">
+                  <img class="img-responsive" src="imgs/Group2.jpg" alt="#" />
+               </div>
+            </div>
+         </div>
+      </div>
+      
+      <div id="classes" class="layout_padding">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12 text_align_center">
+                  <h2 class="heading_section ; animate__animated animate__flip" style="margin-bottom: 65px;">PERSONAL CLASSES</h3>
+               </div>
+            </div>
+            <div class="row">
+               
+               <div class="col-sm-4">
+                  <div class="full dance_form_name">
+                     <img src="imgs/Main3.jpg" alt="#" />
+                     <h4></h4>
+                  </div>
+               </div>
 
-        <!-- Map -->
-        <!-- <div id="ourmaps"></div> -->
-        <img src="images/map.png" alt="">
+               <div class="col-sm-4">
+                  <div class="full dance_form_name">
+                     <img src="imgs/main4.jpg" alt="#" />
+                     <h4></h4>
+                  </div>
+               </div>
 
-        <!-- Footer -->
-        <footer>
-            <!-- Container -->
-            <div class="container">
-                <div class="row">
+               <div class="col-sm-4">
+                  <div class="full dance_form_name">
+                     <img src="imgs/Trainings1.jpg" alt="#" />
+                     <h4></h4>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
 
-                    <!-- <div class="col-lg-3 col-sm-4 col-xs-12 col-lg-offset-1 pull-right">
-                        <div class="contact_us">
-                            <h4>Subscribe now</h4>
-                            <p>Subscribe to the newsletter and
-                                get some crispy stuff every week.</p>
+      <div id="shows">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="full">
+               <div class="col-md-12 text_align_center">
+                  <h2 class="heading_section ; animate__animated animate__rotateIn" style="margin-bottom: 65px">SESSION SCHEDULES</h3>
+                     <div class="opening_hour_blog">
+                        <div class="hero-image">
+                          <div class="hero-text">
+                           <p class="thicker"><h4>Morning Session</h5></p>
+                              <li><h5>Location: Ny 49 Gugulethu Stadium<h4></li>                    
+                              <b><li>Gym session : 07:00 – 08:30</li></b>
+                              <p class="thicker"><h4>Late Session</h5></p>
+                              <li><h5>Location: Ny 74 Community Hall<h5></li>
+                              <b><li>Gym session : 18:30 – 19:30</li></b>
+                           
+                          </div>
+                        </div>                     
+                     </div>
+                  </div>
+               </div>
+            </div>  
+         </div>
+      </div>
 
-                            <form role="form">
-                                <div class="form-group">
-                                    <div class="input-group">
-                                        <input type="email" class="form-control" id="em" placeholder="Enter your e-mail here">
-                                        <span class="input-group-btn">
-                                            <button type="submit" class="btn send_btn">
-                                                <i class="glyphicon glyphicon-send"></i>
-                                            </button>
-                                        </span>
-                                    </div>
-                                </div>
-                            </form>
+       <div id="classes" class="layout_padding">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12 text_align_center">
+                  <h2 class="heading_section ; animate__animated animate__backOutUP" style="margin-bottom: 65px;">BOOTCAMPS</h3>
+               </div>
+            </div>
+            <div class="row">
+               
+               <div class="col-md-3">
+                  <div class="full dance_form_name">
+                     <img src="imgs/B1.jpeg" alt="#" />
+                     <h4></h4>
+                  </div>
+               </div>
 
-                        </div>
-                    </div> -->
+               <div class="col-md-3">
+                  <div class="full dance_form_name">
+                     <img src="imgs/B3.jpeg" alt="#" />
+                     <h4></h4>
+                  </div>
+               </div>
 
-                    <div class="col-lg-3 col-sm-4 col-xs-12 col-lg-offset-1 pull-right">
-                        <div class="contact_us">
-                            <h4>CALL US </h4><br>
-                            <h5> (click a number and MAKE YOUR ORDER) </h5>
-                            <P><a href="tel:0766105037">0766105037 </a>/<a href="tel:0712674797"> 0712674797</a></P>
-                            
-                            <address>
-                                Ny 71 Farm House<br />
-                                Gugulethu <br />
-                            </address>
-                        </div>
-                    </div>
+               <div class="col-md-3">
+                  <div class="full dance_form_name">
+                     <img src="imgs/B4.jpeg" alt="#" />
+                     <h4></h4>
+                  </div>
+               </div>
 
+               <div class="col-md-3">
+                  <div class="full dance_form_name">
+                     <img src="imgs/B2.jpeg" alt="#" />
+                     <h4></h4>
+                  </div>
+               </div>
 
-                    <div class="col-lg-4 col-sm-4 col-xs-12 pull-right">
-                        <div class="basic_info">
-                            <a href=""><img class="flaticon flaticon-burger" alt="Burger" /></a>
+            </div>
+         </div>
+      </div>
 
-                            <ul class="list-inline social">
-                                <li><a href="" class="fa fa-facebook"></a></li>
-                                <li><a href="" class="fa fa-twitter"></a></li>
-                                <li><a href="" class="fa fa-instagram"></a></li>
-                            </ul>
+      <div id="contact" class="layout_padding">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12 text_align_center">
+                  <h2 class="heading_section ; animate__animated animate__shakeY">Visit us</h3>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="trainings_blog" class="layout_padding" style="background: #b52f3c;">
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-6 text_align_center"><b>Ny 49 Stadium</b>
+                  <img class="img-responsive" src="imgs/GYm%20location.PNG" alt="#" />
+               </div>
+                <div class="col-sm-6 text_align_center"><b>Ny 74 Hall</b>
+                  <img class="img-responsive" src="imgs/Ny74Hall.PNG" alt="#" />
+               </div>
+            </div>
+         </div>
+      </div>
+      <footer>
+         <div class="container">
+            <div class="row">
 
-                            <div class="footer-copyright">
-                                <p class="wow fadeInRight" data-wow-duration="1s">
-                                    Made with 
-                                    <i class="fa fa-heart"></i>
-                                    by 
-                                     <a target="_blank" href="http://bootstrapthemes.co">LofieTech</a> <br /> 
-                                    2021. All Rights Reserved
-                                </p>
-                            </div>					
-                        </div>
-                    </div>
+              <div class="col-lg-2 col-md-6 col-12">
+                  <div class="item">
+                     <h4>Address</h4>
+                     <li><img src="imgs/location.png" alt="#" />NY 49 Gugulethu Stadium<br>Cape Town</li><br>
+                     <li class="a">Click and call our manager:</li>Mfundo<a href="tel:0815536032"> 0790758969</a><br><br>
+                     <li class="a">Email:
+                     <li><img src="imgs/mail_icon.png" alt="#" />asiphelimoya@gmail.com</li>
+                  </div>
+               </div>               
+               <div class="col-sm-12 col-md-6 col-6">
+                  <div class="item">
+                     <h4 style="text-align:right;"></h4>
+                     
+                  </div>
+                  <div class="item social_icon">
+                     <ul>
+                        <li><img src="imgs/fb.png" alt="#"></li>
+                        <li><img src="imgs/tw.png" alt="#"></li>
+                        <li><img src="imgs/in.png" alt="#"></li>
+                        <li><img src="imgs/gp.png" alt="#"></li>
+                     </ul>
+                  </div>
+               </div>
 
-                </div>
-            </div><!-- Container end -->
-        </footer><!-- Footer end -->
+               <div class="col-lg-3 col-md-6 col-12">
+                  <div class="footer_blog_section" style="margin-top: 55px;">
+                     <img class="img-responsive" src="imgs/Emblem.jpg" alt="width="360" height="145" alt="#" />
+                  </div>
+               </div>
 
-
-        <!-- scroll up-->
-        <div class="scrollup">
-            <a href="#"><i class="fa fa-chevron-up"></i></a>
-        </div><!-- End off scroll up->
-
-        <!-- JavaScript -->
-        <script src="http://code.jquery.com/jquery-1.12.1.min.js"></script>		
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-        <!-- Bootsnav js -->
-        <script src="js/bootsnav.js"></script>
-
-        <!-- JS Implementing Plugins -->
-        <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
-        <script src="js/gmaps.min.js"></script>
-
-        <script type="text/javascript">
-            var map;
-            $(document).ready(function () {
-                map = new GMaps({
-                    el: '#ourmaps',
-                    lat: 3.139003,
-                    lng: 101.686855,
-                    scrollwheel: false
-                });
-
-                //locations request
-                map.getElevations({
-                    locations: [[3.139003, 101.686855]],
-                    callback: function (result, status) {
-                        if (status == google.maps.ElevationStatus.OK) {
-                            for (var i in result) {
-                                map.addMarker({
-                                    lat: result[i].location.lat(),
-                                    lng: result[i].location.lng(),
-                                    infoWindow: {
-                                        content: '<address class="tooltip_address"><b>Burger Delight</b><br />NY 71 Farm House,<br />Gugulethu <br />Cape Town <br /></address>'
-                                    }
-                                });
-                            }
-                        }
-                    }
-                });
-
-            });
-        </script>
-
-
-        <!--main js-->
-        <script type="text/javascript" src="js/main.js"></script>
-    </body>	
-</html>	
+            </div>
+         </div>
+         <div class="copyright text-center">
+            <p>Copyright © 2021 Designed by <a href="https://html.design">Lofietech Company</a>. All rights reserved</p>
+         </div>
+      </footer>
+      <script src="js/jquery-3.3.1.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script>
+         $(function () {
+             
+             'use strict';
+             
+             var winH = $(window).height();
+             
+             $('header').height(winH);  
+             
+             $('header .container > div').css('top', (winH / 2) - ( $('header .container > div').height() / 2));
+             
+             $('.navbar ul li a.search').on('click', function (e) {
+                 e.preventDefault();
+             });
+             $('.navbar a.search').on('click', function () {
+                 $('.navbar form').fadeToggle();
+             });
+             
+             $('.navbar ul.navbar-nav li a').on('click', function (e) {
+                 
+                 var getAttr = $(this).attr('href');
+                 
+                 e.preventDefault();
+                 $('html').animate({scrollTop: $(getAttr).offset().top}, 1000);
+             });
+         })
+      </script>
+   </body>
+</html>
